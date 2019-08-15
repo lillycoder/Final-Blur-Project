@@ -1,4 +1,4 @@
-class Animal
+class Lion
 
   attr_accessor 
   def initialize(hair, size)
@@ -28,8 +28,8 @@ class Animal
   end
 end
 
-@animal = Animal.new(:mane, :large)
-@animal.what_type
+@lion = Lion.new(:mane, :large)
+@lion.what_type
 
 
 
